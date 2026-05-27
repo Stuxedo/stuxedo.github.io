@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.stux.group/global/logo.png" width="200" alt="Stux.Group Logo">
+  <img src="https://global.media.stuxedo.com/logo.png" width="200" alt="Stuxedo Logo">
 </p>
 
 # GitHub Pages Redirect
@@ -64,4 +64,4 @@ Have questions? Check the [GitHub Pages documentation](https://pages.github.com/
 
 ---
 
-Made by [Stux.Group](https://github.com/StuxGroup)
+Made by [Stuxedo](https://github.com/Stuxedo)
