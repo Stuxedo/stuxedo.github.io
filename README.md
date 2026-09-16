@@ -66,4 +66,4 @@ Have questions? Check the [GitHub Pages documentation](https://pages.github.com/
 
 Made by [Stuxedo](https://github.com/Stuxedo)
 
-*Stuxedo is part of the [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
+*Stuxedo is operated by [Stux.Cloud](https://services.stux.cloud), which is operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE.*
