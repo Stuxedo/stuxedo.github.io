@@ -5,6 +5,12 @@ All notable changes to stuxedo.github.io are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.0.3
+
+### Changed
+
+- README footer now matches the other Stux.Group brands' GitHub Pages redirect repos: "Stuxedo is part of the Stux.Group Brand of Companies" (it previously read "operated by Stux.Cloud, which is operated by Stux Group Ltd…")
+
 ## v1.0.2
 
 ### Fixed
