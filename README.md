@@ -62,7 +62,7 @@ Releases are made and tagged on `test`, and go live when its pull request into `
 
 ## License
 
-Feel free to use this template for your own projects!
+Copyright (c) 2026 Stux.Group. All rights reserved. This repository is not licensed for reuse or redistribution, see [LICENSE](LICENSE).
 
 ## Support
 
