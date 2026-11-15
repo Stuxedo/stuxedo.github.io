@@ -19,11 +19,12 @@ python3 -m http.server 8000
 - Single static `index.html` — no framework, no build step, no backend.
 - Keep it minimal; this repo exists only to redirect GitHub Pages traffic.
 
-## Branches
+## Branches and going live
 
-- Work on `test`, or on a feature branch off it. Never push to `main`
-- Changes reach `main` only through a pull request from `test` into `main`, is reviewed and merged by Leo
-- Merging into `main` deploys the redirect to GitHub Pages; release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
+- **`main` is what's live.** Nothing is pushed to it directly: it only changes when a pull request from `staging` is merged. Merging into it deploys the redirect to GitHub Pages.
+- **`staging` is the last check before live.** It only changes when a pull request from `test` is merged. Nothing deploys from it.
+- **Work happens on `test`**, or on a feature branch off `test` that's merged back into it. Releases are made on `test` too; `commit.sh` / `commit.bat` refuse to run on `staging` or `main`.
+- **Going live:** push `test` with its tag, open a pull request into staging (`gh pr create --base staging --head test`), check staging once it's merged, then open one from staging into main (`gh pr create --base main --head staging`). Leo reviews and merges both.
 
 ## Versioning
 
